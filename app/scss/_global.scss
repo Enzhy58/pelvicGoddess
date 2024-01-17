@@ -7,8 +7,16 @@ body {
     line-height: 33px;
 }
 
+.container--big {
+    max-width: 1746px;
+}
+
 .container--small {
-    max-width: 1471px;
+    max-width: 1441px;
+}
+
+.container--big,
+.container--small {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
