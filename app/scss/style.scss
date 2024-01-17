@@ -3,3 +3,25 @@
 @import 'reset';
 @import 'global';
 @import 'libs';
+
+.top {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100vh;
+        padding-bottom: 141px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+}
+

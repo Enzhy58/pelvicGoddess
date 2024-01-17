@@ -6,3 +6,30 @@ body {
     font-size: 24px;
     line-height: 33px;
 }
+
+.container--small {
+    max-width: 1471px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 110px;
+    letter-spacing: -0.005em;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    padding: 16px 46px;
+    border: 1px solid $black;
+    border-radius: 22px;
+}
