@@ -5,7 +5,7 @@
 @import 'libs';
 
 .header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 16px;
     border-bottom: 1px solid $white;
@@ -64,5 +64,41 @@
         margin-bottom: 30px;
     }
 
+}
+
+.therapy {
+    background-color: $ivory;
+    padding: 281px 0;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        margin-right: 100px;
+        border-radius: 0 300px 0 0;
+    }
+
+    &__title {
+        font-family: 'Cormorant', sans-serif;
+        font-weight: 300;
+        font-size: 89px;
+        line-height: 116%;
+        letter-spacing: -0.005em;
+        color: $title;
+        margin-bottom: 55px;
+    }
+
+    &__text {
+        font-size: 19px;
+        line-height: 29px;
+        letter-spacing: 0.11em;
+        color: rgba($black, 0.58);
+
+        p:not(:last-child) {
+            margin-bottom: 40px;
+        }
+    }
 }
 
