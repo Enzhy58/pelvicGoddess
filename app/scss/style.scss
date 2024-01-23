@@ -49,7 +49,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom: 1px solid $black;
 
     &__inner {
         display: flex;
@@ -99,6 +98,62 @@
         p:not(:last-child) {
             margin-bottom: 40px;
         }
+
+    }
+    
+}
+
+.start {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 262px 0 239px 0;
+
+    &__text {
+        max-width: 886px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 29px;
+        line-height: 39px;
+        font-weight: 600;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 26px;
+    }
+
+    &__link {
+        position: relative;
+        display: block;
+        max-width: 260px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 800;
+        color: $oat-milk;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        padding-right: 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            background-image: url("../images/prenatalFitness/start/arrow.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     }
 }
+
+
+
+
 
