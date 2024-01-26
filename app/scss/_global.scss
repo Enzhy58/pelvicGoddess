@@ -30,6 +30,17 @@ body {
     letter-spacing: -0.005em;
 }
 
+.title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 300;
+    font-size: 76px;
+    line-height: 92px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: $title;
+    margin-bottom: 61px;
+}
+
 .btn {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -45,3 +56,4 @@ body {
 .border {
     border-bottom: 1px solid $black;
 }
+
