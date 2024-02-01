@@ -155,6 +155,66 @@
 
 }
 
+.tariffs {
+    padding: 130px 0 139px 0;
+    background-color: $pale-oat;
+
+    .title {
+        margin-bottom: 80px;
+    }
+
+    &__inner {
+        max-width: 1122px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &__header-list {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        margin-bottom: 52px;
+        border-bottom: 1px solid $title;
+    }
+
+    &__header-item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    &__header-btn {
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: $title;
+        padding: 7px 48px;
+        border-radius: 36px;
+        transition: background-color 0.3s;
+
+        &--active {
+            background-color: $white;
+        }
+
+    }
+
+    &__body-item {
+        display: none;
+
+        &--active {
+            display: block;
+        }
+
+    }
+
+    &__body-text {
+        font-size: 19px;
+        line-height: 150%;
+        color: $title;
+        letter-spacing: 0.11em;
+    }
+
+}
+
 .service {
     background-color: $ivory;
     padding: 137px 0 177px 0;
@@ -200,6 +260,7 @@
             bottom: -20%;
             background-color: #C59888;
         }
+
     }
 
     &__text {
@@ -215,5 +276,3 @@
     }
 
 }
-
-
