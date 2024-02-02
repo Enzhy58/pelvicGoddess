@@ -53,7 +53,43 @@ body {
     border-radius: 22px;
 }
 
+.link--arrow {
+    position: relative;
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 800;
+    color: $oat-milk;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    padding-right: 30px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-image: url("../images/prenatalFitness/start/arrow.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
+
 .border {
     border-bottom: 1px solid $black;
 }
 
+.text--big {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: $white;
+}
