@@ -323,5 +323,33 @@
         max-width: 150px;
         width: 100%;
     }
+
+}
+
+.new {
+    padding: 150px 0;
+
+    &__inner,
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-left: -100px;
+    }
+
+    &__title {
+        font-family: 'Cormorant', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.005em;
+        max-width: 270px;
+        width: 100%;
+        margin-right: 20px;
+        transform: rotate(-90deg);
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
