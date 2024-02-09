@@ -395,6 +395,57 @@
     &__btn {
         align-self: flex-start;
     }
+
+}
+
+.footer {
+    background-color: $pale-oat;
+    padding: 63px 0 31px 0;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 61px;
+    }
+
+    .menu {
+        
+        &__list {
+            flex-direction: column;
+        }
+
+        &__item {
+            margin-right: 0;
+        }
+
+        &__item:not(:last-child) {
+            margin-bottom: 26px;
+        }
+
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        letter-spacing: 0.11em;
+    }
+
+    .border {
+        display: block;
+        margin-bottom: 34px;
+    }
+
+}
+
+.contacts {
+    display: flex;
+
+    &__item:not(:last-child) {
+        margin-right: 35px;
+    }
+
 }
 
 
