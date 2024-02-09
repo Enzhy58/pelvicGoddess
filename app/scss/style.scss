@@ -327,6 +327,7 @@
 }
 
 .new {
+    background-color: $white;
     padding: 150px 0;
 
     &__inner,
@@ -351,5 +352,50 @@
     &__item:not(:last-child) {
         margin-right: 10px;
     }
+
 }
+
+.subscribe {
+    padding: 165px 0 196px 0;
+
+    &__title {
+        color: $black;
+        margin-bottom: 115px;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list {
+        display: flex;
+        margin-right: 55px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 71px;
+    }
+
+    &__field {
+        padding: 20px 15px 0 15px;
+        border-bottom: 1px solid $black;
+        margin-bottom: 23px;
+    }
+
+    &__text {
+        display: block;
+        font-weight: 300;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.11em;
+        text-align: center;
+    }
+
+    &__btn {
+        align-self: flex-start;
+    }
+}
+
+
 
