@@ -93,3 +93,10 @@ body {
     letter-spacing: 0.11em;
     color: $white;
 }
+
+.logo--decor {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
